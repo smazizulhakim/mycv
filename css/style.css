@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*------header start------*/
+header{
+	width: 100%;
+	min-height: 500px;
+	background-color: #262626;
+}
+.wrapper {
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	font-family:sans-serif; 
+	font-size:50px;
+	color: tomato; 	
+	float: left;
+	text-align: center;
+}
+
+.menu {
+	width: 75%;
+	float: right;
+}
+.menu ul{
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 20px; 
+	color: tomato;
+	text-decoration: none;
+	padding: 0px 30px;
+}
+.menu ul li a:hover{
+	color: #fff;
+}
+.subject-name {	
+	width: 100%;
+	font-family: comic sans ms,sans-serif;
+	font-size: 60px;
+	font-weight: lighter;
+ 	color: #FFF;
+ 	margin-top: 200px;
+ 	text-align: center;
+}	
+
+.subjects {
+	font-family: comic sans ms,sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	display: inherit;
+}
+
+.download-resume {
+	width: 193px;
+	font-size: 16px;
+	block-size: 53px;
+	background-color: tomato;
+	margin: 4px auto;
+	border-radius: 26px;
+	cursor: pointer;
+	align-items: center;
+	display: grid;
+}
+.download-resume:hover {
+	color: #fff;
+}
+/*------header end------*/
