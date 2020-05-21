@@ -24,6 +24,7 @@ header{
 .menu {
 	width: 75%;
 	float: right;
+	margin-top: 20px;
 }
 .menu ul{
 	overflow: hidden;
